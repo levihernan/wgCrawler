@@ -29,14 +29,14 @@ requirements = [
 test_requirements = []
 
 setup(
-    name='wg-gesucht-crawler-cli',
+    name='wgCrawler',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description="Python web crawler / scraper for WG-Gesucht. Crawls the WG-Gesucht site for new apartment listings and send a message to the poster, based off your saved filters and saved text template.",
     long_description=readme + '\n\n' + history,
     author="Grant Williams",
     author_email='grant.williams2986@gmail.com',
-    url='https://github.com/grantwilliams/wg-gesucht-crawler-cli',
+    url='',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     entry_points={
         'console_scripts': [

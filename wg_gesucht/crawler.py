@@ -398,7 +398,7 @@ class WgGesuchtCrawler:
             )
             self.update_files(url, ad_info)
             return
-        
+
         ad_submitter = (
             submit_form_page_soup.find(
                 attrs={"class": "control-label", "for": "message_input"}
